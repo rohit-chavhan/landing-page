@@ -1,0 +1,212 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+  }
+
+  body {
+   -webkit-font-smoothing: antialiased;
+   font-family: 'Roboto';
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    /* max-width: 100%; */
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  /* start from here above is a css style reset */
+
+  /* main flexbox */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+  body {
+  font-size: 16px;
+  }
+
+  .page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* heading flexbox */
+
+  .padding {
+    padding: 0.5% 10%;
+  }
+
+  /* background color for hero and footer */
+  .black-background {
+    background-color: #1f2937;
+  }
+
+  .light-grey {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+  .blue-color {
+    color:#3882F6;
+  }
+  
+  .logo {
+    color: #F9FAF8;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: #E5E7EB;
+
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 10%;
+    background-color: #1f2937;
+    padding: 1.5% 10%;
+  }
+
+  .header-button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 1px solid #3882F6;
+    font-weight: bold;
+    color: white;
+    padding: 3px 15px;
+  }
+
+  .hero-section {
+    display: flex;
+    padding: 5% 10% 5% 10%;
+    gap: 30px;
+    background-color: #1f2937;
+  }
+
+  .hero-image {
+    width: 280%;
+    height: auto;
+  }
+
+  .hero-main-text {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #F9FAF8;
+  }
+
+  .hero-main-para {
+    color: #E5E7EB;
+    margin: 6% 0px;
+  }
+
+  #main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5% 10%;
+    margin-bottom: 5%;
+  }
+
+  #main-content > h2 {
+    padding: 5% 0;
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #1f2937;
+  }
+
+  .info-image {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    /* flex-direction: column; */
+  }
+
+  .info-image > div > img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #3882F6;
+    margin: auto;
+  }
+
+  .info-image > div > p {
+    font-size: 1.125rem;
+    color: #1f2937;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .review-section {
+    padding: 8% 10%;
+    background-color: #E5E7EB;
+  }
+
+  .review-section > p {
+    font-size: 2.25rem;
+    font-style:  italic;
+    color: #1f2937;
+    margin-bottom: 2%;
+  }
+
+  .review-section >  h3 {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+  }
+
+  .call-to-action {
+    background-color: white;
+    padding: 5% 10%;
+  }
+
+  .call-to-action > div {
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 6%;
+  }
+
+  .call-to-action > div  > div > p {
+    font-size: 1.125rem;
+    color: white;
+  }
+
+  .call-to-action > div > div > h3 {
+    color: white;
+  }
+
+  .border-white {
+    border : 1px solid white;
+  }
+
+  .footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 2%;
+    text-align: center;
+  }
