@@ -42,19 +42,13 @@
     flex-direction: column;
   }
 
-  /* heading flexbox */
-
-  .padding {
-    padding: 0.5% 10%;
-  }
-
   /* background color for hero and footer */
   .black-background {
     background-color: #1f2937;
   }
 
   .light-grey {
-    font-size: 18px;
+    font-size: 1.25rem;
     color: #E5E7EB;
   }
 
@@ -120,6 +114,7 @@
   .hero-main-para {
     color: #E5E7EB;
     margin: 6% 0px;
+    font-size: 1.25rem;
   }
 
   #main-content {
@@ -142,7 +137,6 @@
     display: flex;
     justify-content: flex-start;
     gap: 10px;
-    /* flex-direction: column; */
   }
 
   .info-image > div > img {
