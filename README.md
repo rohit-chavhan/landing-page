@@ -1,3 +1,3 @@
 # landing-page
 #credits
-illustrations and images are from www.freepik.com
+illustrations and images are from freepik.com
